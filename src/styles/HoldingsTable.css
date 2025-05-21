@@ -1,0 +1,50 @@
+.holdings-table-container {
+  margin-top: 2rem;
+}
+
+.holdings-title {
+  margin-bottom: 1rem !important;
+  color: #1a1a1a;
+}
+
+.asset-cell {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.coin-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.gain {
+  color: #16c784 !important;
+}
+
+.loss {
+  color: #ea3943 !important;
+}
+
+.view-all-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .holdings-table-container {
+    margin-top: 1rem;
+    overflow-x: auto;
+  }
+  
+  .asset-cell {
+    gap: 0.5rem;
+  }
+  
+  .coin-logo {
+    width: 24px;
+    height: 24px;
+  }
+} 
